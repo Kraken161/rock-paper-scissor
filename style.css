@@ -1,0 +1,39 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(238, 231, 231);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+#paper,
+#scissor,
+#rock {
+  background: #d1c7c7;
+  cursor: pointer;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+#paper:hover,
+#scissor:hover,
+#rock:hover {
+  background: #d6c8c8;
+}
+
+.text {
+  text-align: center;
+}
